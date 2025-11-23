@@ -1,0 +1,33 @@
+Assignment 5 Problem 1 pseudocode:
+
+- Open the dictionary file.
+
+- Define a vector of strings called words.
+
+- For each word in the dictionary file
+
+   - Append the word to the words vector.
+
+- Open the file to be checked.
+
+- For each word in that file
+
+- If the word is not contained in the words vector
+
+      Print the word.
+
+Problem 2 pseudocode:
+
+- Ask the user whether they want to encrypt or decrypt.
+
+- Ask the user for a shift value (number of positions to shift letters).
+
+- Read the text from input.txt.
+
+- Apply the Caesar cipher:
+
+	Encryption: shift letters forward by the shift value.
+
+	Decryption: shift letters backward by the shift value.
+
+- Write the result to output.txt.
